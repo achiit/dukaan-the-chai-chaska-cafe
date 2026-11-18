@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Chai Chaska Bar & Cafe · Kulhad Chai in Saroj Nagar, Nagpur</title>
+<meta name="description" content="Rated 4.3 by 45 guests. Kulhad chai, bun maska and snacks from ₹1–200 at Friends Colony Rd, Saroj Nagar, Nagpur. Open till 10 pm.">
+<style>
+:root{--bg:#fbf5ea;--card:#fff;--ink:#2b1a10;--muted:#7a6454;--accent:#b4531f;--accent2:#e8a33d;--line:#ecdcc4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--ink);line-height:1.6;padding-bottom:70px}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.15}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:rgba(251,245,234,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+.logo{font-weight:700;font-size:1.2rem;color:var(--accent)}
+nav a{margin-left:18px;font-family:system-ui,sans-serif;font-size:.95rem;color:var(--muted);padding-bottom:4px}
+nav a.active{color:var(--ink);border-bottom:2px solid var(--accent)}
+.page{display:none}.page.show{display:block}
+.hero{position:relative;min-height:70vh;display:flex;align-items:flex-end;color:#fff;background:#3a2414 url('https://chai-chaska-cafe-guide.lovable.app/assets/hero-chai-BTQAZ7KY.jpg') center/cover}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(30,15,5,.85),rgba(30,15,5,.15))}
+.hero .wrap{position:relative;padding-top:80px;padding-bottom:40px}
+.pill{display:inline-block;background:var(--accent2);color:#3a1f08;font-family:system-ui,sans-serif;font-size:.8rem;font-weight:600;padding:4px 12px;border-radius:99px;margin-bottom:14px}
+.hero h1{font-size:clamp(2.6rem,9vw,4.6rem)}
+.hero p.sub{font-size:1.15rem;margin:10px 0 16px;max-width:520px}
+.rating{font-family:system-ui,sans-serif;margin-bottom:20px}
+.rating b{color:var(--accent2)}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;font-family:system-ui,sans-serif;font-weight:600;padding:12px 22px;border-radius:99px;background:var(--accent);color:#fff}
+.btn.alt{background:transparent;border:1.5px solid currentColor}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:-30px auto 0;position:relative;z-index:2;max-width:1000px;padding:0 20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center;font-family:system-ui,sans-serif}
+.stat b{display:block;font-size:1.15rem;color:var(--accent)}
+.stat span{font-size:.8rem;color:var(--muted)}
+section{padding:56px 0}
+.eyebrow{font-family:system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;color:var(--accent);font-weight:600;margin-bottom:8px}
+.adda{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+.adda img,.fav-img{width:100%;border-radius:18px;display:block;object-fit:cover}
+.quote{font-style:italic;font-size:1.05rem;color:var(--muted);margin-top:14px;border-left:3px solid var(--accent2);padding-left:14px}
+.adda h2,.sec-head h2{font-size:2rem;margin-bottom:14px}
+.sec-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px;flex-wrap:wrap;gap:8px}
+.sec-head a{font-family:system-ui,sans-serif;color:var(--accent);font-weight:600}
+.favs{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.item{display:flex;justify-content:space-between;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line)}
+.item h3{font-size:1.05rem}
+.item small{font-family:system-ui,sans-serif;color:var(--muted);font-size:.85rem}
+.price{font-family:system-ui,sans-serif;font-weight:700;color:var(--accent);white-space:nowrap}
+.tag{font-family:system-ui,sans-serif;font-size:.65rem;background:var(--accent2);color:#3a1f08;padding:2px 8px;border-radius:99px;margin-left:6px;vertical-align:middle;font-weight:700}
+.reviews{background:#f2e6d0}
+.reviews .big{font-size:3rem;color:var(--accent);font-weight:700}
+.rgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
+.rcard{background:var(--card);padding:20px;border-radius:14px;border:1px solid var(--line)}
+.rcard cite{display:block;margin-top:8px;font-family:system-ui,sans-serif;font-size:.8rem;color:var(--muted);font-style:normal}
+.cta{text-align:center}
+.cta h2{font-size:2.2rem;margin-bottom:10px}
+.cta p{color:var(--muted);margin-bottom:18px}
+.pagehead{padding:48px 0 16px}
+.pagehead h1{font-size:2.8rem}
+.pagehead p{color:var(--muted);margin-top:8px}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 0}
+.chips a{font-family:system-ui,sans-serif;font-size:.9rem;border:1px solid var(--line);background:var(--card);padding:6px 16px;border-radius:99px}
+.menu-sec{margin-top:36px;scroll-margin-top:80px}
+.menu-sec h2{font-size:1.7rem}
+.menu-sec>p{color:var(--muted);font-style:italic}
+.visit-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:28px;margin-top:20px}
+.vcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px}
+.vcard h3{font-family:system-ui,sans-serif;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);margin-bottom:4px}
+iframe{width:100%;height:100%;min-height:360px;border:0;border-radius:14px}
+footer{background:#2b1a10;color:#e9d9c3;padding:36px 0;font-family:system-ui,sans-serif;font-size:.9rem}
+footer b{font-family:Georgia,serif;font-size:1.2rem;color:var(--accent2)}
+footer li{list-style:none;margin-top:6px}
+footer a{text-decoration:underline}
+.sticky{position:fixed;bottom:0;left:0;right:0;z-index:30;display:flex;background:var(--card);border-top:1px solid var(--line)}
+.sticky a{flex:1;text-align:center;padding:14px;font-family:system-ui,sans-serif;font-weight:600}
+.sticky a:first-child{background:var(--accent);color:#fff}
+@media(max-width:720px){.adda,.favs,.rgrid,.visit-grid{grid-template-columns:1fr}.stats{margin-top:-24px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#home">☕ ChaiChaska</a>
+    <nav>
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#menu" data-nav="menu">Menu</a>
+      <a href="#visit" data-nav="visit">Visit</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HOME -->
+<main id="home" class="page">
+  <div class="hero">
+    <div class="wrap">
+      <span class="pill">Open till 10 pm</span>
+      <h1>The Chai Chaska</h1>
+      <p class="sub">Kulhad chai, hot snacks &amp; long evenings in Saroj Nagar.</p>
+      <p class="rating"><b>★ 4.3</b> (45 Google reviews)</p>
+      <div class="btns">
+        <a class="btn" href="#menu">View menu</a>
+        <a class="btn alt" href="tel:+917721052791">077210 52791</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>₹1–200</b><span>per person</span></div>
+    <div class="stat"><b>Till 10 pm</b><span>every evening</span></div>
+    <div class="stat"><b>Saroj Nagar</b><span>Nagpur</span></div>
+  </div>
+
+  <section>
+    <div class="wrap adda">
+      <img src="https://chai-chaska-cafe-guide.lovable.app/assets/ambience-BfcHP8zc.jpg" alt="Guests relaxing with chai on cushioned seating at sunset">
+      <div>
+        <div class="eyebrow">Our adda</div>
+        <h2>Pull up a seat. Stay for another cup.</h2>
+        <p>The Chai Chaska is a neighbourhood chai stop on Friends Colony Road — the kind of place where one cutting turns into three, the snacks keep coming, and nobody checks the time until closing.</p>
+        <p style="margin-top:10px">Easy on the pocket, warm on the soul. Come with friends, come alone with a book — the kettle is always on.</p>
+        <p class="quote">“Can sit for hours enjoying the view and atmosphere having snacks and tea”</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><div class="eyebrow">Guest favourites</div><h2 style="margin:0">What everyone orders</h2></div>
+        <a href="#menu">Full menu →</a>
+      </div>
+      <div class="favs">
+        <img class="fav-img" src="https://chai-chaska-cafe-guide.lovable.app/assets/snacks-DfBHAl_n.jpg" alt="Vada pav, samosa, bun maska, maggi and cutting chai">
+        <div>
+          <div class="item"><div><h3>Kulhad Masala Chai</h3><small>Clay cup, house masala</small></div><span class="price">₹30</span></div>
+          <div class="item"><div><h3>Tandoori Chai</h3><small>Smoked in a hot kulhad</small></div><span class="price">₹45</span></div>
+          <div class="item"><div><h3>Cold Coffee</h3></div><span class="price">₹80</span></div>
+          <div class="item"><div><h3>Bun Maska</h3><small>Soft bun, loads of butter</small></div><span class="price">₹35</span></div>
+          <p style="margin-top:14px"><a href="#menu" style="color:var(--accent);font-family:system-ui,sans-serif;font-weight:600">See the whole menu →</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="wrap">
+      <div class="eyebrow">What guests say</div>
+      <div><span class="big">4.3</span> <span style="font-family:system-ui,sans-serif">★ (45 Google reviews)</span></div>
+      <div class="rgrid">
+        <div class="rcard">“Can sit for hours enjoying the view and atmosphere having snacks and tea”<cite>Google review</cite></div>
+        <div class="rcard">“With some tweaks to the menu and flavors, it could become a more popular spot.”<cite>Google review</cite></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Chai’s on. Come by.</h2>
+      <p>Nelco Society, Friends Colony Rd, Saroj Nagar, Nagpur, Maharashtra 440013</p>
+      <a class="btn" href="#visit">How to find us</a>
+    </div>
+  </section>
+</main>
+
+<!-- MENU -->
+<main id="menu" class="page">
+  <div class="wrap">
+    <div class="pagehead">
+      <div class="eyebrow">₹1–200 per person</div>
+      <h1>The Menu</h1>
+      <p>Fresh brews and hot snacks, all day till 10 pm. Ask at the counter for today’s specials.</p>
+      <div class="chips">
+        <a href="#menu" data-scroll="chai">Chai</a>
+        <a href="#menu" data-scroll="coffee-coolers">Coffee &amp; Coolers</a>
+        <a href="#menu" data-scroll="chai-ke-saathi">Chai ke Saathi</a>
+      </div>
+    </div>
+
+    <div class="menu-sec" id="chai">
+      <h2>Chai</h2><p>Brewed slow, served in kulhad</p>
+      <div class="item"><div><h3>Cutting Chai</h3><small>The classic half glass</small></div><span class="price">₹15</span></div>
+      <div class="item"><div><h3>Kulhad Masala Chai <span class="tag">Popular</span></h3><small>Clay cup, house masala</small></div><span class="price">₹30</span></div>
+      <div class="item"><div><h3>Adrak Elaichi Chai</h3><small>Ginger &amp; cardamom</small></div><span class="price">₹25</span></div>
+      <div class="item"><div><h3>Tandoori Chai <span class="tag">Popular</span></h3><small>Smoked in a hot kulhad</small></div><span class="price">₹45</span></div>
+      <div class="item"><div><h3>Chocolate Chai</h3></div><span class="price">₹50</span></div>
+      <div class="item"><div><h3>Lemon Honey Tea</h3></div><span class="price">₹35</span></div>
+    </div>
+
+    <div class="menu-sec" id="coffee-coolers">
+      <h2>Coffee &amp; Coolers</h2><p>For when chai needs a break</p>
+      <div class="item"><div><h3>Hot Coffee</h3></div><span class="price">₹40</span></div>
+      <div class="item"><div><h3>Cold Coffee <span class="tag">Popular</span></h3></div><span class="price">₹80</span></div>
+      <div class="item"><div><h3>Masala Chaas</h3></div><span class="price">₹30</span></div>
+      <div class="item"><div><h3>Fresh Lime Soda</h3></div><span class="price">₹50</span></div>
+      <div class="item"><div><h3>Oreo Shake</h3></div><span class="price">₹110</span></div>
+    </div>
+
+    <div class="menu-sec" id="chai-ke-saathi">
+      <h2>Chai ke Saathi</h2><p>Snacks that belong next to your cup</p>
+      <div class="item"><div><h3>Bun Maska <span class="tag">Popular</span></h3><small>Soft bun, loads of butter</small></div><span class="price">₹35</span></div>
+      <div class="item"><div><h3>Samosa (2 pcs)</h3><small>With green chutney</small></div><span class="price">₹30</span></div>
+      <div class="item"><div><h3>Vada Pav</h3></div><span class="price">₹25</span></div>
+      <div class="item"><div><h3>Butter Maggi</h3></div><span class="price">₹60</span></div>
+      <div class="item"><div><h3>Cheese Masala Maggi</h3></div><span class="price">₹90</span></div>
+      <div class="item"><div><h3>Veg Grilled Sandwich</h3></div><span class="price">₹90</span></div>
+      <div class="item"><div><h3>Paneer Cheese Sandwich</h3></div><span class="price">₹130</span></div>
+      <div class="item"><div><h3>Peri Peri Fries</h3></div><span class="price">₹100</span></div>
+    </div>
+    <div style="height:40px"></div>
+  </div>
+</main>
+
+<!-- VISIT -->
+<main id="visit" class="page">
+  <div class="wrap">
+    <div class="pagehead">
+      <div class="eyebrow">Find us</div>
+      <h1>Come by for chai</h1>
+    </div>
+    <div class="visit-grid">
+      <div>
+        <div class="vcard"><h3>Address</h3>Nelco Society, Friends Colony Rd, Saroj Nagar, Nagpur, Maharashtra 440013</div>
+        <div class="vcard"><h3>Hours</h3>Closes at 10 pm</div>
+        <div class="vcard"><h3>Phone</h3><a href="tel:+917721052791">077210 52791</a></div>
+        <div class="btns">
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=The+Chai+Chaska+Bar+and+Cafe+Friends+Colony+Rd+Saroj+Nagar+Nagpur" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn alt" style="color:var(--accent)" href="tel:+917721052791">Call now</a>
+        </div>
+      </div>
+      <iframe title="Map" loading="lazy" src="https://www.google.com/maps?q=Nelco+Society,+Friends+Colony+Rd,+Saroj+Nagar,+Nagpur,+Maharashtra+440013&output=embed"></iframe>
+    </div>
+    <div style="height:50px"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <b>Chai Chaska</b><br>Bar &amp; Cafe · Saroj Nagar, Nagpur
+    <ul>
+      <li>Nelco Society, Friends Colony Rd, Saroj Nagar, Nagpur, Maharashtra 440013</li>
+      <li><a href="tel:+917721052791">077210 52791</a></li>
+      <li>Closes at 10 pm</li>
+    </ul>
+    <p style="margin-top:14px;opacity:.7">© 2026 The Chai Chaska Bar &amp; Cafe</p>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a href="tel:+917721052791">📞 Call</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=The+Chai+Chaska+Bar+and+Cafe+Friends+Colony+Rd+Saroj+Nagar+Nagpur" target="_blank" rel="noopener">📍 Directions</a>
+</div>
+
+<script>
+const pages=['home','menu','visit'];
+function route(){
+  const h=(location.hash||'#home').slice(1);
+  const p=pages.includes(h)?h:'home';
+  pages.forEach(n=>document.getElementById(n).classList.toggle('show',n===p));
+  document.querySelectorAll('[data-nav]').forEach(a=>a.classList.toggle('active',a.dataset.nav===p));
+  window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',route);
+route();
+document.querySelectorAll('[data-scroll]').forEach(a=>a.addEventListener('click',e=>{
+  e.preventDefault();
+  document.getElementById(a.dataset.scroll).scrollIntoView({behavior:'smooth'});
+}));
+</script>
+</body>
+</html>
